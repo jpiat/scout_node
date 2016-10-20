@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>scout_ndirect</name>
+  <version>0.0.0</version>
+  <description>
+     Wraper for the Ndirect library, allowing control of a Scout robot on ROS.
+  </description>
+  <author>Gonçalo Cabrita and Pedro Sousa and Jonathan Piat</author>
+  <maintainer email="jpiat@todo.todo">jpiat</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+
+</package>
+
+
